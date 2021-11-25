@@ -1,0 +1,206 @@
+    body {
+        overflow-x: hidden;
+        font-size: 14px;
+        padding: 0.7rem;
+    }
+    /* header-nav */
+    
+    header {
+        padding: 0;
+    }
+    
+    header .logo {
+        display: flex;
+        justify-content: left;
+    }
+    
+    header .logo img {
+        max-width: 30vw;
+    }
+    
+    header .toolbar {
+        position: absolute;
+        top: 0;
+    }
+    
+    header .toolbar .delivery {
+        position: static;
+        display: flex;
+        justify-content: right;
+    }
+    
+    header .toolbar .delivery-img {
+        width: 10vw;
+    }
+    
+    header .toolbar .delivery span {
+        display: flex;
+        align-self: center;
+        font-size: 10px;
+    }
+    
+    header .toolbar .links {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header .toolbar .links li a {
+        font-size: 4.5vw;
+        margin: 0;
+        letter-spacing: 2px;
+    }
+    
+    header .toolbar .links .dropdown:hover .sub-menu {
+        top: 7.5vw;
+        left: -2.9vw;
+    }
+    /*header-title*/
+    
+    header .headline {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 0;
+    }
+    
+    header .headline .sub-title {
+        /* width: 10em; */
+        font-size: 3.5vw;
+        border-width: 3px;
+        padding: 8px 12px;
+    }
+    
+    header .headline .title {
+        font-size: 16vw;
+    }
+    
+    header .headline .second-title {
+        font-size: 10vw;
+        top: 17vw;
+    }
+    /*middle banners*/
+    
+    .middle-banners a {
+        text-decoration: none;
+    }
+    
+    .middle-banners .left-post {
+        background-image: url(../img/burger-image3.png);
+        height: 10vh;
+        margin-bottom: 1vw;
+        padding: 0;
+    }
+    
+    .middle-banners .left-post .labels {
+        margin: 2vw 2vw 0;
+        line-height: 0.7rem;
+    }
+    
+    .middle-banners .right-posts .labels {
+        padding: 3vw 2vw 0;
+        line-height: 0.7rem;
+    }
+    
+    .middle-banners .right-posts {
+        padding: 0;
+    }
+    
+    .middle-banners .labels .title {
+        font-size: 16px;
+        position: static;
+    }
+    
+    .middle-banners .labels .description {
+        font-size: 12px;
+        position: static;
+    }
+    
+    .middle-banners .labels .description-2 {
+        font-size: 12px;
+        position: static;
+    }
+    /*order title*/
+    
+    .order-title span {
+        font-size: 35px;
+    }
+    /*order-menu*/
+    
+    .order-menu img {
+        width: 50%;
+    }
+    
+    .order-menu span {
+        font-size: 25px;
+    }
+    
+    .order-menu .cta {
+        margin-bottom: 1.5rem;
+    }
+    /*upcoming-events*/
+    
+    .events {
+        padding: 0;
+        margin: 20px 20px 10px;
+    }
+    
+    .events .row span:first-child {
+        font-size: 20px;
+    }
+    
+    .events .row .title {
+        font-size: 25px;
+    }
+    
+    .events .paginations {
+        display: none;
+    }
+    /*booking-forms*/
+    
+    .booking .forms {
+        margin: auto;
+    }
+    
+    .booking .left-design,
+    .right-design {
+        display: none;
+    }
+    
+    .booking .forms .forms-title .title {
+        font-size: 35px;
+    }
+    
+    .booking .forms .forms-input button {
+        margin: 10px;
+        padding: 3.4vw;
+        font-size: 12px;
+    }
+    /*footer*/
+    
+    footer {
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+    
+    footer .address,
+    .copyright {
+        position: static!important;
+        margin: 2vw;
+    }
+    
+    footer .footer-description p {
+        margin: 2vw;
+    }
+    
+    footer .address i {
+        position: static !important;
+        font-size: 20px;
+        margin: 0.2vw 0 0;
+        padding-right: 2vw;
+        padding-left: 0;
+    }
+    
+    footer .social-icons {
+        display: none;
+    }
